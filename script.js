@@ -1,4 +1,4 @@
-var url = "https://restcountries.eu/rest/v2/name/{name}";
+var url = "https://restcountries.eu/rest/v2/name/";
 var countriesList = $("#countries");
 
 $("#search").click(searchCountries);
