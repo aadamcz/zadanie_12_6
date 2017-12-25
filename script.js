@@ -17,11 +17,9 @@ function searchCountries() {
 
 function showCountriesList(resp){
 	countriesList.empty();
-<<<<<<< HEAD
+
 	resp.forEach(function(item){
 		$('<li>').text(item.name).appendTo(countriesList);
 	})
 }
-=======
-}
->>>>>>> dd9238137d1ddafcb62b22c27c686f33a287b654
+
